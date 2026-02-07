@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Kajol 🌹</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+        color: #4a1c1c;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.9);
+        border-radius: 20px;
+        padding: 30px;
+        margin: 20px 0;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        animation: fadeIn 2s ease;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.8;
+    }
+
+    .rose {
+        font-size: 70px;
+        animation: float 3s infinite ease-in-out;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 15px 30px;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 30px;
+        background: #e63946;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #c9182b;
+        transform: scale(1.05);
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 0.9em;
+        opacity: 0.8;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes float {
+        0% {transform: translateY(0);}
+        50% {transform: translateY(-15px);}
+        100% {transform: translateY(0);}
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="rose">🌹</div>
+    <h1>Happy Rose Day, Kajol</h1>
+    <h2>This rose is not just a flower… it’s my heart.</h2>
+
+    <div class="card">
+        <p>
+            Kajol,  
+            I know I’ve made many mistakes.  
+            I know I hurt you, broke your trust, and disappointed you.  
+            There is no excuse for that… only regret and realization.
+        </p>
+    </div>
+
+    <div class="card">
+        <p>
+            You are special to me in ways words can’t fully explain.  
+            Even on my worst days, you were my comfort.  
+            Even when I failed, you believed in me more than I deserved.
+        </p>
+    </div>
+
+    <div class="card">
+        <p>
+            Today is Rose Day, and I wish I could place this rose in your hands,  
+            look into your eyes, and say this honestly:
+            <br><br>
+            <strong>I am truly sorry, Kajol.</strong>  
+            Not just for one mistake, but for every moment I made you feel sad.
+        </p>
+    </div>
+
+    <div class="card">
+        <p>
+            I don’t want perfection.  
+            I don’t want to erase the past.  
+            I just want one chance to do better,  
+            to respect your heart,  
+            and to make you feel as loved as you deserve.
+        </p>
+    </div>
+
+    <button onclick="showMessage()">Click for my promise 💖</button>
+
+    <div id="promise" class="card" style="display:none;">
+        <p>
+            I promise to listen more,  
+            to hurt less,  
+            to love deeper,  
+            and to never take you for granted again.
+            <br><br>
+            🌹 Will you keep this rose with you today? 🌹
+        </p>
+    </div>
+
+    <footer>
+        Made with a heavy heart & honest love 💔❤️
+    </footer>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("promise").style.display = "block";
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
